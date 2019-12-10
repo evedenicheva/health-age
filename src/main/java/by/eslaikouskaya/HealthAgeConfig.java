@@ -24,7 +24,6 @@ import java.util.Properties;
 @ComponentScan("by.eslaikouskaya")
 @EnableTransactionManagement
 @PropertySource("classpath:database.properties")
-@PropertySource("classpath:hibernate.properties")
 public class HealthAgeConfig extends WebMvcConfigurerAdapter {
 
 	@Autowired
